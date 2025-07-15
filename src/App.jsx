@@ -1,7 +1,7 @@
 import { useEffect, createContext, useContext, useState } from 'react';
-import NavBar from './NavBar';
-import useToggle from './useToggle';
-import Section from './Section';
+import NavBar from './NavBar.jsx';
+import useToggle from './useToggle.jsx';
+import Section from './Section.jsx';
 
 const MENU_ITEMS = [
   {title: 'Home', link: 'index.html', active: true},
